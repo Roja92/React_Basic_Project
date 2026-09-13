@@ -1,0 +1,30 @@
+.container{
+    max-width:1440px;
+    margin:0 auto;
+    padding-top:24px;
+   
+}
+.nav_content{
+    display: flex;
+   justify-content: space-between;
+}
+.logo img{
+    width:76px;
+    height:42px;
+}
+.nav_content ul{
+    list-style-type:none;
+    gap:24px;
+    display: flex;
+li{
+font-size:16px;
+font-weight:600;
+}
+}
+button{
+    background-color:#D01C28;
+    color:white;
+    font-size:16px;
+    padding:6px 16px;
+    border:0;
+}

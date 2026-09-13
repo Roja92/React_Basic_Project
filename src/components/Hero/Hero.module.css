@@ -1,0 +1,62 @@
+.main_section{
+    display: flex;
+    max-width: 1125px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    .hero_content{
+        display: flex;
+        flex-direction: column;
+        max-width:595px;
+        gap:15px;
+        
+        h1{
+            font-size:108px;
+            font-weight:800;
+            line-height: 102px;
+        }
+        p{
+            font-size:16px;
+            font-weight:600;
+            color: #5A5959;
+            width: 404px;
+        }
+
+.hero_btn{
+    display: flex;
+    gap:40px;
+    button{
+        padding:6px 16px;
+        font-size:15px;
+        font-weight: 600;
+    }
+    .category{
+        background-color: white;
+        color:#5A5959;
+        border:1px solid black;
+
+    }
+}
+
+        .shop_img 
+ {       
+    display: flex;
+            gap: 16px;
+            p{
+                font-size:16px;
+            }
+        img{
+width:32px;
+height:32px;
+        }
+    }
+}
+    .hero_img{
+       max-width:530px;
+        img{
+            width:100%;
+        }
+    }
+
+}
